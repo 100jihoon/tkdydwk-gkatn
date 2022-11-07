@@ -1,0 +1,16 @@
+#include <iostream>
+int area(int a);
+int main() 
+{
+  int radius;
+
+  printf("반지름의 길이는? ");
+  scanf("%d", &radius);
+
+  radius = area(radius);
+  printf("\n\n 원 넓이 = %d \n\n", radius);
+  }
+int area(int a)
+{
+  return a * a * 3;
+}
